@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Russo+One&family=Sigmar&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: rgba(238, 238, 238, 1);
+}
+
+.all-in {
+  position: relative;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.foreveryome {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+  height: 580px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  overflow-y: auto;
+  padding: 2px;
+  overflow-x: hidden;
+}
+
+.one-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.two-sectionns{
+  flex-shrink: 0;
+  width: 100%;
+}
+
+#forlogostick {
+  width: 100%;
+  display: block;
+}
+
+.thre-sections {
+  flex-shrink: 0;
+  padding: 20px 0;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.fourth-section{
+  flex-grow: 1;
+  width: 100%;
+  overflow-y: auto;
+  min-height: 100px;
+}
+
+#first {
+  width: 275px;
+  height: 49px;
+  border-radius: 5px;
+  background: rgba(235, 239, 242, 1);
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+}
+
+#plusbutton {
+  width: 88px;
+  height: 49px;
+  gap: 11px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgba(32, 238, 176, 1);
+  border: none;
+  margin-left: 10px;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+}
+.all-in{
+  display: flex;
+  flex-direction: row;
+  gap: 20rem;
+}
+
+.header-todo {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 127, 219, 1);
+}
+.no-todosyet{
+  text-align: center;
+  padding: 20px;
+  color: #999;
+  font-style: italic;
+}
+
+h1 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #007FDB;
+}
+.everyone{
+  margin-bottom: 20px;
+}

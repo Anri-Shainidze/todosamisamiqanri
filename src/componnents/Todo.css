@@ -1,0 +1,34 @@
+.sami{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.sami-heshtags{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 15px;
+
+}
+.for-container{
+    width: 100%;
+}
+#onlydelet{
+    cursor: pointer;
+    color: red;
+}
+.everyone{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.redtrash{
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
